@@ -1,0 +1,13 @@
+'''total=0
+num=10
+for i in range(0,num+1):
+    total=total+i
+print (total)'''
+
+def Natural_sum(num):
+    total=0
+    for i in range(num+1):
+        total+=i
+    return total
+sum=Natural_sum(5)
+print(sum)

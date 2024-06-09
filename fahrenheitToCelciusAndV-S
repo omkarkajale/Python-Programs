@@ -1,0 +1,6 @@
+c=47
+#fahrenheit=input("Enter Fahrenheit input =")
+
+f=(1.8 * c) + 32
+print('%.2f Celsius is equivalent to: %.2f Fahrenheit'
+      % (c, f))

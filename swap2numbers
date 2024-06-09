@@ -1,0 +1,8 @@
+def swap(a,b):
+    print("Before swap values of a and b are =",a,b)
+    temp=a #temporary var
+    a=b
+    b=temp     
+    print("After swap values of a and b are =",a,b)
+
+swap(2,3)
